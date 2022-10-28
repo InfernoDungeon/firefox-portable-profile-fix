@@ -5,12 +5,11 @@ AddonStartup.json.lz4 unpack function was taken from here - https://github.com/d
 
 The standalone exe compilation was done with pyinstaller.
 
-usage: -profile \<profile dir\> -app \<app path\>
+usage: `-profile <profile dir> -app <app path>`
   
 options:  
-  -h, --help        show this help message and exit  
-  -app APP          Path to firefox.exe or any firefox-based browser  
-  -profile PROFILE  Path to firefox profile  
+  `-app <app path>`           Path to firefox.exe or any firefox-based browser  
+  `-profile <profile dir> `   Path to firefox profile  
 
 sample:  
  `main.py -app "C:\Program Files\Mozilla Firefox\firefox.exe" -profile "C:\profiles\Default"`
